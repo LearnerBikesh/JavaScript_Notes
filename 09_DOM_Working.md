@@ -60,3 +60,6 @@
 
 ## Script Loading : *Regular* Vs *Async* Vs *Defer*
 - ![ScriptLoading](ScriptLoading.jpg)
+
+
+
