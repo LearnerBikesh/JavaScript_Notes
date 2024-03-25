@@ -25,3 +25,8 @@
     - function is called and this is set to this object ( this = {})
     - (object){} is linked to prototype
     - function automatically return newly created object {}
+
+
+
+*Summary of all ES6 Classes and some of it's properties*
+![Summary of Oops Pillars](ES6_Classes_Summary.jpg)

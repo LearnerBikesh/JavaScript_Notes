@@ -57,3 +57,29 @@ console.log(PersonCl.prototype)
 // 1: Classes are not hoisted
 // 2: Classes are first class citizens
 // 3: Classes are executed in strict mode
+
+
+
+
+
+/* Inheritance in JavaScript */
+
+class Students extends PersonCl{
+    constructor(name , age , course){
+        super(name ,age);
+        this.course = course;
+    }
+
+
+    // if you have the same function as that in the parent class then the function in the child have the higher priority
+    // it's like phle mai apne jeb me jhaak ke dekhunga agr kuch nhi mila tb apne parents k pass jaunga
+
+    greet(){
+        console.log(`My nane is ${this.name} and I am ${this.age} year old and studying ${this.course}`);
+    }
+}
+
+const student = new Students("Kohli" , 45 , 'Computer Science');
+console.log(student.greet());
+
+// Encapsulation is still in development in javascript , you can see the md file attached to learn more about Encapsualtion
